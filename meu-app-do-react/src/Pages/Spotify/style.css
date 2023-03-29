@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+#logo{
+  height: 40px; 
+  width: 130px; 
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #9e9898;
+}
+
+a:hover {
+  color: rgb(226, 224, 224);
+  transition: 0.5s;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  flex-direction: column;
+  float: left;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.icone {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+hr {
+  width: 90%;
+  margin-left: 15px;
+  border: 0;
+  border-top: 1px solid #4c4c4d;
+}
+
+#play {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+/* HEADER */
+
+header {
+  background: linear-gradient(#0d0a3f, #121212);
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upgrade {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.upgrade:hover {
+  color: white;
+  transition: 0.5s;
+  border: 1px solid white;
+}
+
+/* MAIN */
+
+section {
+  width: 80%;
+  float: right;
+}
+
+main {
+  background-color: #121212;
+  height: 970px;
+  padding: 50px;
+
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: -70px;
+}
+
+h1,
+h2 {
+  color: white;
+  line-height: 50px;
+}
+
+h2:hover {
+  text-decoration: underline;
+  transition: 1.0s;
+  cursor: pointer;
+}
+
+#ordem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recentes {
+  background-color: rgb(31, 29, 29);
+  display: flex;
+  align-items: center;
+  margin-block: 20px;
+  margin-right: 40px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  width: 300px;
+}
+
+.recentes:hover {
+  background-color: rgb(49, 46, 46);
+  transition: 1.0s;
+}
+
+#capa {
+  width: 90px;
+  border-radius: 3px 0 0 3px;
+  box-shadow: 1px 0 15px rgb(8, 8, 8);
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+#linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.albuns {
+  background-color: rgb(32, 30, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 60%;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 25px;
+
+}
+
+.albuns:hover {
+  background-color: rgb(49, 46, 46);
+  transition: 1.0s;
+}
+
+#album {
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 0 15px rgb(8, 8, 8);
+}
+
+
+h4 {
+  line-height: 20px;
+}
+
+p {
+  color: rgb(187, 184, 184);
+  font-size: 12px;
+  font-weight: 200px
+}
